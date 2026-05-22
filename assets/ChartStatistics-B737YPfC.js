@@ -1,0 +1,1 @@
+import{j as s,c}from"./index-OD76-hEY.js";const x=({title:t,icon:e,stats:a,variant:r})=>s.jsxs(s.Fragment,{children:[s.jsx("p",{className:"text-muted font-15 mb-1 text-truncate",children:t}),s.jsxs("h4",{children:[s.jsx("i",{className:c(e,"text-"+r,"me-1")}),a]})]});export{x as C};

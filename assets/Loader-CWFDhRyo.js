@@ -1,0 +1,1 @@
+import{j as s}from"./index-OD76-hEY.js";const a=()=>s.jsx("div",{className:"preloader position-absolute",id:"preloader",children:s.jsx("div",{className:"status",id:"status",children:s.jsx("div",{className:"spinner"})})});export{a as L};

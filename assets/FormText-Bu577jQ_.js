@@ -1,0 +1,1 @@
+import{r as m,f as x,j as p,c}from"./index-OD76-hEY.js";const f=m.forwardRef(({bsPrefix:s,className:t,as:a="small",muted:r,...e},o)=>(s=x(s,"form-text"),p.jsx(a,{...e,ref:o,className:c(t,s,r&&"text-muted")})));f.displayName="FormText";export{f as F};
