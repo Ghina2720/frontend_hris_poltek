@@ -7,7 +7,7 @@ import axios from "axios";
 // components
 import AppMenu from "./Menu";
 import profileImg from "@/assets/images/users/user-1.jpg";
-import fallbackLogo from "@/assets/images/logosci.png";
+import fallbackLogo from "@/assets/images/logo-poltek-panjang.png";
 import { FiUser, FiSettings, FiLock, FiLogOut } from "react-icons/fi";
 import { useLayoutContext } from "@/context/useLayoutContext.jsx";
 import { MENU_ITEMS, filterMenuByPermission } from "../constants/menu"; // Import fungsi filter

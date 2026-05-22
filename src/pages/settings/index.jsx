@@ -19,7 +19,7 @@ import PageTitle from "../../components/PageTitle";
 const API_BASE = import.meta.env.VITE_API_BASE_URL.replace(/\/$/, "");
 
 // Fungsi untuk menghindari error loop gambar
-const handleImageError = (e, fallback = "/logo-syntax.png") => {
+const handleImageError = (e, fallback = "/logo-poltek-panjang.png") => {
   e.target.onerror = null;
   e.target.src = fallback;
 };

@@ -5,8 +5,8 @@ import { useAuthContext } from "@/context/useAuthContext.jsx";
 import { Doughnut } from "react-chartjs-2";
 import maskotImage from "./maskot.png";
 import suaraElang from "./suara.mp3";
-import logoKampus from "./logo-kampus.png";
-import bgStaiku from "./bg-staiku.jpeg";
+// import logoKampus from "./logo-poltek-panjang.png";
+import bgStaiku from "./kampus-poltek.jpg";
 
 // 🔹 Register Chart.js components
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
@@ -206,7 +206,7 @@ const currentTheme = getTheme();
           </Col>
 
           {/* RIGHT: University Logo Section */}
-          <Col lg={4} className="d-flex justify-content-center justify-content-lg-end mt-4 mt-lg-0">
+          {/* <Col lg={4} className="d-flex justify-content-center justify-content-lg-end mt-4 mt-lg-0">
             <div className="logo-wrapper position-relative">
               <div className="logo-glow" />
               <img 
@@ -222,7 +222,7 @@ const currentTheme = getTheme();
                 }}
               />
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </div>
     </Card.Body>
